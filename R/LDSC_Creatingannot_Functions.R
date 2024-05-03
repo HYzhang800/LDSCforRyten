@@ -16,7 +16,7 @@ creating_baseline_df <- function(baseline_model = c("53", "75", "76", "86", "97"
 
   # Read in correct baseline model depending on model specified in argument baseline_model
   if (baseline_model == "53") {
-    file.paths <- list.files(path = E:/function_genomics_of_LSDs/ldsc/Reference_Files/GRCh38/baseline_v1.2/",
+    file.paths <- list.files(path = "E:/function_genomics_of_LSDs/ldsc/Reference_Files/GRCh38/baseline_v1.2/",
                                  pattern = "annot.gz", full.names = T)
   }
 
