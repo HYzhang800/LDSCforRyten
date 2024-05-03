@@ -16,27 +16,27 @@ creating_baseline_df <- function(baseline_model = c("53", "75", "76", "86", "97"
 
   # Read in correct baseline model depending on model specified in argument baseline_model
   if (baseline_model == "53") {
-    file.paths <- list.files(path = "/data/LDScore/Reference_Files/GRCh38/baseline_v1.2/",
+    file.paths <- list.files(path = E:/function_genomics_of_LSDs/ldsc/Reference_Files/GRCh38/baseline_v1.2/",
                                  pattern = "annot.gz", full.names = T)
   }
 
   if (baseline_model == "75") {
-    file.paths <- list.files(path = "/data/LDScore/Reference_Files/1000G_Phase3_baselineLD_v1.1_ldscores_75annot",
+    file.paths <- list.files(path = "E:/function_genomics_of_LSDs/ldsc/Reference_Files/1000G_Phase3_baselineLD_v1.1_ldscores_75annot",
                              pattern = "annot.gz", full.names = T)
   }
 
   if (baseline_model == "76") {
-    file.paths <- list.files(path = "/data/LDScore/Reference_Files/1000G_Phase3_baselineLD_v2.0",
+    file.paths <- list.files(path = "E:/function_genomics_of_LSDs/ldsc/Reference_Files/1000G_Phase3_baselineLD_v2.0",
                              pattern = "annot.gz", full.names = T)
   }
 
   if (baseline_model == "86") {
-    file.paths <- list.files(path = "/data/LDScore/Reference_Files/1000G_Phase3_baselineLD_v2.1_ldscores",
+    file.paths <- list.files(path = "E:/function_genomics_of_LSDs/ldsc/Reference_Files/1000G_Phase3_baselineLD_v2.1_ldscores",
                              pattern = "annot.gz", full.names = T)
   }
 
   if (baseline_model == "97") {
-    file.paths <- list.files(path = "/data/LDScore/Reference_Files/1000G_Phase3_baselineLD_v2.2_ldscores",
+    file.paths <- list.files(path = "E:/function_genomics_of_LSDs/ldsc/Reference_Files/1000G_Phase3_baselineLD_v2.2_ldscores",
                              pattern = "annot.gz", full.names = T)
   }
 
